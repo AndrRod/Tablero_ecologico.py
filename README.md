@@ -1,7 +1,7 @@
 # Tablero_ecologico.py
 create a function that paints a board green and white. (crear una funcion que pinte un tablero de color verde y blanco)
-# Escriba un programa que permita imprimir un tablero Ecológico (verde y blanco) de acuerdo al tamaño indicado. Por ejemplo el gráfico a la izquierda es el resultado de un tamaño: 8x6
 
+# Escriba un programa que permita imprimir un tablero Ecológico (verde y blanco) de acuerdo al tamaño indicado. Por ejemplo el gráfico a la izquierda es el resultado de un tamaño: 8x6
 
 import turtle as t
 import time
