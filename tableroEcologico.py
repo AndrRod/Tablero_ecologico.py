@@ -112,7 +112,7 @@ while True:
 
     cuadrado(ancho, alto)
     
-    time.sleep(2)
+    time.sleep(5)
     t.clearscreen()
 
 
