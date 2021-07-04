@@ -58,16 +58,10 @@ def cuadrado(ancho, alto=1):
     nombre = t.textinput("Nombre", "¿Cuál es su nombre?")
     t.write(f'            {nombre} ejecutaste un programa hecho por ANDRES RODRIGUEZ')
     
-    
-    
-
-
-
 
 def fuente_roja(texto):
     red = "\033[31m" + texto + "\033[0m"
     return red
-
 
 def opciones(si_o_no):
     while not si_o_no.upper() in ['SI', 'NO']:
@@ -79,8 +73,6 @@ def devuelve_num_entero(numero):
     while not numero.isdigit():
         numero = t.textinput('INGRESE UNA OPCION VALIDA', 'Ingrese nuevamente un numero: ')
     return int(numero)
-
-
 
 
 while True:
