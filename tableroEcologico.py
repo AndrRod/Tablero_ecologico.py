@@ -13,6 +13,14 @@ def es_par(numero):
 
 
 def cuadrado(ancho, alto=1):
+    t.penup()
+    t.speed(100)
+    t.setheading(270)
+    t.forward(150)
+    t.setheading(180)
+    t.forward(300)
+    t.pendown()
+    
     
     for j in range(alto):
         bandera = 0
@@ -83,10 +91,11 @@ def devuelve_num_entero(numero):
 
 while True:
     
-    t.setup(800, 800, 0, 0)
+    
+    t.setup(800, 800, 300, 150)
     t.title('tablero Ecológico (verde y blanco)')
     flecha = t.Turtle()
-    t.setheading(180)
+    
     t.screensize(300, 150)
 
     
@@ -105,5 +114,7 @@ while True:
     
     time.sleep(2)
     t.clearscreen()
+
+
 
 
